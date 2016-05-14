@@ -1,3 +1,7 @@
+# Bankfacil
+alias bkfssh="cd ~/workspace/bankfacil && vagrant ssh"
+alias bkfup="cd ~/workspace/bankfacil && vagrant up"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias 2..="cd ../.."
@@ -7,13 +11,11 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
+alias vitormd=" ~/workspace/vitormd"
+alias doc="cd ~/Documents"
+alias down="cd ~/Downloads"
+alias desk="cd ~/Desktop"
 alias g="git"
-alias h="history"
-alias j="jobs"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
