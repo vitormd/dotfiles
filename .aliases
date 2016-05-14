@@ -11,7 +11,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias vitormd=" ~/workspace/vitormd"
+alias work="cd ~/workspace"
 alias doc="cd ~/Documents"
 alias down="cd ~/Downloads"
 alias desk="cd ~/Desktop"
