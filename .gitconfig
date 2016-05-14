@@ -180,3 +180,9 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	signingkey = DF4C1E27
+	name = Vitor D'Amico
+	email = vitordami@gmail.com
+
