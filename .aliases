@@ -1,6 +1,7 @@
 # Bankfacil
 alias bkfssh="cd ~/workspace/bankfacil && vagrant ssh"
 alias bkfup="cd ~/workspace/bankfacil && vagrant up"
+alias gatewaybkf="ssh _vitor@gateway.bankfacil.com.br"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
