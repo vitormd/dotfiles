@@ -6,10 +6,9 @@ alias bkfstag="ssh _vitor@gateway-staging.bankfacil.com.br"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
-alias 2..="cd ../.."
-alias 3..="cd ../../.."
-alias 4..="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
 alias -- -="cd -"
 
 # Shortcuts
@@ -17,6 +16,7 @@ alias work="cd ~/workspace"
 alias doc="cd ~/Documents"
 alias down="cd ~/Downloads"
 alias desk="cd ~/Desktop"
+alias g="git "
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
