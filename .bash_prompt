@@ -110,8 +110,9 @@ divider="|";
 inputLineCoolChar="$"; # $'\xe2\xa5\xb2';
 PS1="\[\033]0;\W\007\]"; # working directory base name
 PS1+="\[${bold}\]\n"; # newline
+PS1+="\[${white}\][\t]" # Time 24-h HH:MM:SS
 
-PS1+="\[${white}\]${leftBracket}"; # [
+PS1+="${leftBracket}"; # [
 PS1+="\[${userStyle}\]\u"; # username
 # PS1+="\[${white}\] at ";
 # PS1+="\[${hostStyle}\]\h"; # host
