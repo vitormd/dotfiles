@@ -5,7 +5,7 @@
 # alias bkfstag="ssh _vitor@gateway-staging.bankfacil.com.br"
 
 # Contratado
-alias cont="cd ~/workspace/contratado"
+alias repo="cd ~/workspace/contratado"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
