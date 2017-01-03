@@ -1,4 +1,9 @@
 [alias]
+	# Stash
+	stu = stash -u
+	stap = stash pop
+	stal = stash list
+	stad = stash drop
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
