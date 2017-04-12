@@ -104,23 +104,23 @@ else
 fi;
 
 # Set the terminal title and prompt.i
-leftBracket="["; # $'\xe2\x9f\x85';
-rightBracket="]"; #$'\xe2\x9f\x86';
+leftBracket="{"; # $'\xe2\x9f\x85';
+rightBracket="}"; # $'\xe2\x9f\x86';
 divider="|";
 inputLineCoolChar="$"; # $'\xe2\xa5\xb2';
 PS1="\[\033]0;\W\007\]"; # working directory base name
 PS1+="\[${bold}\]\n"; # newline
-PS1+="\[${white}\][\t]" # Time 24-h HH:MM:SS
+PS1+="\[${white}\]\t " # Time 24-h HH:MM:SS
 
-PS1+="${leftBracket}"; # [
+PS1+="${leftBracket}";
 PS1+="\[${userStyle}\]\u"; # username
 # PS1+="\[${white}\] at ";
 # PS1+="\[${hostStyle}\]\h"; # host
 PS1+="\[${white}\]${divider}"; # divider
 PS1+="\[${green}\]\w"; # working directory full path
-PS1+="\[${white}\]${rightBracket} "; # ]
+PS1+="\[${white}\]${rightBracket} ";
 
-PS1+="\[${red}\]`~/.rvm/bin/rvm-prompt i v g` " ; # ruby(i), version(v), gemset(g)
+# PS1+="\[${red}\]`~/.rvm/bin/rvm-prompt i v g` " ; # ruby(i), version(v), gemset(g)
 
 PS1+="\$(prompt_git \"\[${violet}\]\" \"\[${blue}\]\" \"\[${green}\]\" \"\[${orange}\]\" \"\[${red}\]\" \"\[${yellow}\]\")"; # Git repository details
 
