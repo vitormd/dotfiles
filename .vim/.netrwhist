@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/vitordamico/workspace/contratado/contratado/.vscode'
+let g:netrw_dirhist_2='/Users/vitordamico/.rvm/gems/ruby-2.5.1/gems/rails-5.1.6'
+let g:netrw_dirhist_3='/Users/vitordamico/.rvm/gems/ruby-2.5.1/gems'
+let g:netrw_dirhist_4='/Users/vitordamico/workspace/contratado/revelo-home/.git/refs'
+let g:netrw_dirhist_5='/Users/vitordamico/workspace/contratado/revelo-home/.git/refs/remotes'
+let g:netrw_dirhist_6='/Users/vitordamico/workspace/contratado/revelo-home/.git/refs/remotes/origin'
+let g:netrw_dirhist_7='/Users/vitordamico/workspace/contratado/contratado'
